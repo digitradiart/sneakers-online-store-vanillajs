@@ -1,70 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Simplr cart - vanilla JS">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="ayu-digitradiart">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DIGITRADIART APPAREL</title><link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>
-            <div class="overlay"></div>
-            <nav>
-                <h2>Shop</h2>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li class="cart">
-                        <a href="cart.html">
-                            <ion-icon name="basket"></ion-icon>CART<span>0</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Simplr cart - vanilla JS">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="ayu-digitradiart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEAKERS BY AYU</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
 
-        <div class="container">
-            <div class="image">
-                <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=758&q=80">
-                <h3>Shoes 1</h3>
-                <h3>Rp 15,00</h3>
-                <a class="add-cart cart1" href="#">Add to cart</a>
-            </div>
+<body>
+    <header>
+        <div class="jumbotron"></div>
+        <nav>
+            <h2>SNEAKERS BY AYU</h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="pages/contact.html">CONTACT</a></li>
+                <li class="cart">
+                    <a href="pages/cart.html">
+                        <ion-icon name="basket"></ion-icon>CART<span>0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-            <div class="image">
-                <img src="https://images.unsplash.com/photo-1556048219-bb6978360b84?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80" alt="product">
-                <h3>Shoes 2</h3>
-                <h3>Rp 15,00</h3>
-                <a class="add-cart cart2" href="#">Add to cart</a>
-            </div>
-
-            <div class="image">
-                <img src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=708&q=80" alt="product">
-                <h3>Shoes 3</h3>
-                <h3>Rp 15,00</h3>
-                <a class="add-cart cart3" href="#">Add to cart</a>
-            </div>
-
-            <div class="image">
-                <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwYXJlbHxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                <h3>Shoes 4</h3>
-                <h3>Rp 15,00</h3>
-                <a class="add-cart cart4" href="#">Add to cart</a>
-            </div>
-                        
-            <div class="image">
-                <img src="https://images.unsplash.com/photo-1595461135849-bf08893fdc2c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcGFyZWx8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                <h3>Shoes 4</h3>
-                <h3>Rp 15,00</h3>
-                <a class="add-cart cart4" href="#">Add to cart</a>
-            </div>
+    <div class="image-container">
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=758&q=80">
+            <h3>Shoes 1</h3>
+            <h3>Rp 150.000</h3>
+            <a class="add-cart cart1" href="#">Add to cart</a>
         </div>
-    </body>
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="js/cart.js"></script>
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1556048219-bb6978360b84?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80" alt="product">
+            <h3>Shoes 2</h3>
+            <h3>Rp 250.000</h3>
+            <a class="add-cart cart2" href="#">Add to cart</a>
+        </div>
+
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=708&q=80" alt="product">
+            <h3>Shoes 3</h3>
+            <h3>Rp 125.000</h3>
+            <a class="add-cart cart3" href="#">Add to cart</a>
+        </div>
+
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwYXJlbHxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <h3>Shoes 4</h3>
+            <h3>Rp 350.000</h3>
+            <a class="add-cart cart4" href="#">Add to cart</a>
+        </div>
+
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1595461135849-bf08893fdc2c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcGFyZWx8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+            <h3>Shoes 4</h3>
+            <h3>Rp 160.000</h3>
+            <a class="add-cart cart4" href="#">Add to cart</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="category">
+            <h3>Find out your shoes here!</h3>
+            <ul>
+                <li>Woman </li>
+                <li>Man </li>
+                <li>Boy </li>
+                <li>Woman </li>
+                <li>Baby </li>
+                <li>Formal</li>
+                <li>Casual</li>
+                <li>Sporty</li>
+                <li>Sneakers</li>
+                <li>Running Shoes</li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright @copy2021 All right reserved.</p>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="js/cart.js"></script>
+
 </html>
