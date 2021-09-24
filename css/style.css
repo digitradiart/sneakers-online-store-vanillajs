@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: wheat;
+}
+
 header {
     height: 300px;
     background-image: url('https://images.unsplash.com/photo-1462927114214-6956d2fddd4e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80');
@@ -37,11 +41,21 @@ nav li span {
     padding-left: 5px;
 }
 
-li a {
+nav li a {
     background-color: white;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: -20px;
+    background-color: chocolate;
+    height: 100px;
 }
 
 .cart ion-icon {
@@ -79,14 +93,14 @@ li a {
 .add-cart {
     position: absolute;
     width: 100%;
-    background-color: rgb(159, 250, 238);
+    background-color: blue;
     transition: all 0.3s ease-in-out;
     opacity: 0;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .image:hover .cart1,
@@ -97,4 +111,26 @@ li a {
     opacity: 1;
     padding: 10px;
     margin-bottom: -2px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px 50px;
+    background-color: chocolate;
+    color: white;
+}
+
+footer .category {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+footer .copyright {
+    padding: 30px;
+    text-align: center;
 }
